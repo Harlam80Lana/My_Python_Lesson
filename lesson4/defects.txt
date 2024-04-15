@@ -1,0 +1,26 @@
+1.  Файл  должен принимать на вход тип данных 'string', 'list', 'delimeter' 
+    По факту функции файла отрабатывают тип данных 'int', 'NoneType' 
+и "не ругается", что с такими типами данных не работает
+
+2. Файл  должен принимать на вход тип данных 'string', 'list', 'delimeter' 
+    По факту функции файла отрабатывают спецсимволы,  и даёт результат PASSED
+
+Lesson_4.1/test_string_utils_1.py::test_capitalize_neg[--ool---ool] PASSED
+Lesson_4.1/test_string_utils_1.py::test_capitalize_neg[!!!-!!!] PASSED
+Lesson_4.1/test_string_utils_1.py::test_trim_neg[   --ool---ool] PASSED
+Lesson_4.1/test_string_utils_1.py::test_trim_neg[   !!!-!!!] PASSED
+Lesson_4.1/test_string_utils_1.py::test_default_list_neg[-,-,o,?,l-res_0] PASSED
+Lesson_4.1/test_string_utils_1.py::test_default_list_neg[!,!,!-res_1] PASSED
+Lesson_4.1/test_string_utils_1.py::test_delimiter_list_neg[N:*:*:e-:-res_0] PASSED
+Lesson_4.1/test_string_utils_1.py::test_contains_neg[A$b8f-f-True] PASSED
+Lesson_4.1/test_string_utils_1.py::test_contains_neg[k6-s-\u0441-False] PASSED
+Lesson_4.1/test_string_utils_1.py::test_delete_symbol_neg[string_0-1-res_0] PASSED  
+Lesson_4.1/test_string_utils_1.py::test_starts_with_neg[_Street-_-True] PASSED 
+Lesson_4.1/test_string_utils_1.py::test_end_with_neg[!-?-?-True] PASSED
+Lesson_4.1/test_string_utils_1.py::test_end_with_neg[ --True] PASSED
+Lesson_4.1/test_string_utils_1.py::test_empty_neg[----False] PASSED 
+Lesson_4.1/test_string_utils_1.py::test_empty_neg[!?<>-False] PASSED
+Lesson_4.1/test_string_utils_1.py::test_default_list_string_neg[lst_0-<>,?!] PASSED
+Lesson_4.1/test_string_utils_1.py::test_default_list_string_neg[lst_1-k,*,!] PASSED
+Lesson_4.1/test_string_utils_1.py::test_joiner_list_string_neg[lst_0---<>-?!] PASSED
+Lesson_4.1/test_string_utils_1.py::test_joiner_list_string_neg[lst_1-:-k:*:!] PASSED 
